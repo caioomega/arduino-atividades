@@ -7,6 +7,7 @@ Projetos das aulas de Arduino, do primeiro LED piscando até um semáforo duplo.
 | 01 | [Pisca LED](01-pisca-led) | Pisca um LED a cada meio segundo | `pinMode`, `digitalWrite`, `delay` |
 | 02 | [Botão e LED](02-botao-led) | Acende o LED enquanto o botão está apertado | `digitalRead`, resistor pull-down, Monitor Serial |
 | 03 | [Semáforo duplo](03-semaforo-duplo) | Dois semáforos sincronizados com 6 LEDs | funções, ciclos de estado, `for` |
+| 04 | [Espiral de LEDs](04-espiral-leds) | 9 LEDs acendem em espiral a partir do meio | vetores, cálculo de índice, `for` ao contrário |
 
 ## Material
 
@@ -46,9 +47,12 @@ Arduino-atividades/
 │   ├── 02-botao-led.ino
 │   ├── demo.mov
 │   └── README.md
-└── 03-semaforo-duplo/
-    ├── 03-semaforo-duplo.ino
-    ├── demo.mov
+├── 03-semaforo-duplo/
+│   ├── 03-semaforo-duplo.ino
+│   ├── demo.mov
+│   └── README.md
+└── 04-espiral-leds/
+    ├── 04-espiral-leds.ino
     └── README.md
 ```
 
