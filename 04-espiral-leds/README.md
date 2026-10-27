@@ -27,4 +27,6 @@ apaga:   9 → 1 → 8 → 2 → 7 → 3 → 6 → 4 → 5
 
 ## Problemas comuns
 
+- **Só alguns LEDs acendem:** o GND não está chegando em todos. Em protoboards compridos a trilha azul (−) é cortada no meio, então ligue as duas metades com um jumper e confira se todos os LEDs vão para a mesma trilha do fio de GND.
+
 - **A ordem saiu bagunçada:** algum fio está num pino diferente. Corrija o vetor `PINOS[]` para ficar na mesma ordem dos LEDs no protoboard.
